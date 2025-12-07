@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+JP:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@import "tailwindcss";
+
+body {
+  background-color: #0a0a0a;
+  color: #ffffff;
+  font-family: 'Inter', 'Noto Sans JP', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ReactFlow エッジのスタイルを強制 */
+.react-flow__edge-path {
+  stroke: #64748b !important;
+  stroke-width: 2 !important;
+}
+
+.react-flow__edge.selected .react-flow__edge-path,
+.react-flow__edge.animated .react-flow__edge-path {
+  stroke: #00d4aa !important;
+  stroke-width: 3 !important;
+}
+
+.react-flow__arrowhead {
+  fill: #64748b !important;
+}
+
+.react-flow__edge.selected .react-flow__arrowhead,
+.react-flow__edge.animated .react-flow__arrowhead {
+  fill: #00d4aa !important;
+}

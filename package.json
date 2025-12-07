@@ -1,0 +1,38 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "<!-- TODO: プロジェクトの簡単な説明を1-2文で記入 -->",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/htopazos122/my-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/htopazos122/my-app/issues"
+  },
+  "homepage": "https://github.com/htopazos122/my-app#readme",
+  "dependencies": {
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.7",
+    "next": "^16.0.7",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "reactflow": "^11.11.4",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.17",
+    "autoprefixer": "^10.4.22",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.17"
+  }
+}
